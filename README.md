@@ -53,3 +53,9 @@ Two methods (FS read, Http request):
 > Summary about node internal
 
 ![internal node summary](./assets/Summary%20-%20node%20internal.png)
+
+---
+
+## 2 - Enhancing Node perfomance
+
+- clustering
