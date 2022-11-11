@@ -52,10 +52,14 @@ Two methods (FS read, Http request):
 
 > Summary about node internal
 
-![internal node summary](./assets/Summary%20-%20node%20internal.png)
+![internal node summary](./assets/Summary-node-internal.png)
 
 ---
 
 ## 2 - Enhancing Node perfomance
 
 - clustering
+  - Cluster manager
+  - Worker Instance
+
+![Benchmark with clustering](./assets/2-benchmark-w-clustering.PNG)
