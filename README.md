@@ -59,7 +59,11 @@ Two methods (FS read, Http request):
 ## 2 - Enhancing Node perfomance
 
 - clustering
-  - Cluster manager
-  - Worker Instance
+  - Cluster manager (cluster lib)
+  - Worker Instance (cluster.fork method)
+- PM2
+  - Cluster management
+
+> Preferably use 1 worker per physical CPU core or 1 worker per logical core (if there are not many CPU intensive tasks).
 
 ![Benchmark with clustering](./assets/2-benchmark-w-clustering.PNG)
